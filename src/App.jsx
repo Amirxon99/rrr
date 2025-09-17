@@ -10,7 +10,7 @@ function App() {
      <BrowserRouter>
        <Routes>
          <Route path='/' element={<Home></Home>}></Route>
-         <Route path='/amirxon' element={<Brand></Brand>}></Route>
+         <Route path='/brands' element={<Brand></Brand>}></Route>
          <Route path='/contacts' element={<Contact></Contact>}></Route>
          <Route path='*' element={<h1>404 Not found</h1>}></Route>
        </Routes>
