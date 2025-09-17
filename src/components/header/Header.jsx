@@ -29,11 +29,11 @@ function Header() {
        <br />
        <nav className='container'>
   <ul>
-    <li><Link to="/Brend">о бренде</Link></li>
-    <li><Link to="/*">продукциИ</Link></li>
-    <li><Link to="/Home">преимущества</Link></li>
-    <li><Link to="/*">открыть клуб</Link></li>
-    <li><Link to="/contact">контакты</Link></li>
+    <li><Link to="/">о бренде</Link></li>
+    <li><Link to="">продукциИ</Link></li>
+    <li><Link to="/brands">преимущества</Link></li>
+    <li><Link to="">открыть клуб</Link></li>
+    <li><Link to="/contacts">контакты</Link></li>
   </ul>
 </nav>
     </div>

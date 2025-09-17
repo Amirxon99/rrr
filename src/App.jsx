@@ -1,4 +1,4 @@
-import './App.css'
+import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Brand from './pages/brand/Brand'
@@ -9,10 +9,10 @@ function App() {
     <div>
      <BrowserRouter>
        <Routes>
-         <Route path='/home' element={<Home></Home>}></Route>
-         <Route path='/Brend' element={<Brand></Brand>}></Route>
-         <Route path='/contact' element={<Contact></Contact>}></Route>
-         <Route path='/*' element={<h1>404 Not found</h1>}></Route>
+         <Route path='/' element={<Home></Home>}></Route>
+         <Route path='/brands' element={<Brand></Brand>}></Route>
+         <Route path='/contacts' element={<Contact></Contact>}></Route>
+         <Route path='*' element={<h1>404 Not found</h1>}></Route>
        </Routes>
      </BrowserRouter>
 
