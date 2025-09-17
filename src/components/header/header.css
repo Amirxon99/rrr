@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+nav{
+    padding: 30px;
+    border-bottom: 2px solid black;
+     
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

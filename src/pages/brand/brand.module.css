@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.about {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 28px;
+  text-transform: uppercase;
+  color: #fff500;
+}
+.tur {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 35px;
+  color: white;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 522px;
+  margin-left: 345px;
+  padding-top: 26px;
+}
+
+header {
+  height: 225px;
+  background: #01aee7;
+}
+.hero {
+  background-image: url("../../../public/a.png");
+  height: 969px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+}
+.box {
+  width: 800px;
+  margin-left: 210px;
+  height: 768px;
+  background: #ffffff;
+}
+.bluep {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 71px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 24px;
+  width: 823px;
+  color: #01aee7;
+}
+.blackp {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 24px;
+  width: 823px;
+  color: black;
+}
+.darkb {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 21px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 24px;
+  width: 823px;
+  color: #01aee7;
+}
+.inovation {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 65px;
+  text-transform: uppercase;
+  padding-bottom: 65px;
+  color: #ffffff;
+}
+.hero2 {
+  background: #01aee7;
+  height: 1250px;
+}
+.trener {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  margin-top: 34px;
+  width: 400px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.card {
+  width: 350px;
+  height: 483px;
+}
+.bb {
+  border-bottom: 3px solid #ffd233;
+  width: 247px;
+  margin-top: 16px;
+}
+.cardota {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.hero3 {
+  background-image: url("../../../public/c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 717px;
+  padding-top: 55px;
+}
+.box2 {
+  width: 1318px;
+  height: 618px;
+  background: #120e0e5e;
+}
+.bigtext {
+  width: 621px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 300px;
+  color: white;
+}
+.blues {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #01aee7;
+}
+.fitnes {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 120px;
+  padding-top: 38px;
+  padding-bottom: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffff19;
+}
+.tre {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  width: 750px;
+  margin-left: 270px;
+  margin-top: 12px;
+  color: #cdc848;
+}
+.name {
+  font-family: Jost;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  padding: 18px 15px;
+  outline: inherit;
+  width: 295px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #000000;
+}
+.btn {
+  padding: 20px 80px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  background: #01aee7;
+  border: none;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: white;
+}
+.inputdiv {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 64px;
+}
+.click {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 767px;
+}
